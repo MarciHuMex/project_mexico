@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     gap: 20px;
     background-color: red;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .top {
@@ -121,6 +121,7 @@ a:hover {
     flex-direction: column;
     width: 200px;
     align-items: center;
+    gap: 15px;
   }
 
   .foto {
@@ -136,5 +137,34 @@ a:hover {
   }
 
   .team .title {
-    text-align:  center;
+    margin: 11px auto;
+    display:inline-block;
+    text-align: center;
+    border: 6px;
+    border-style: dashed;
+    border-color: red white green white;
+    padding: 5px 15px;
+  }
+
+  .costumer {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 20px 0px;
+  }
+
+  .feedback {
+    width: 600px;
+    display: flex;
+    margin: 18px auto;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .name {
+    display: block;
+    text-align: center;
+    padding-left: 430px;
+    font-weight: bold;
   }
