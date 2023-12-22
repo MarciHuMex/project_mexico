@@ -2,6 +2,7 @@
 
 body {
     margin: 0px;
+    font-family: Roboto, sans-serif;
 }
 
 .logo {
@@ -22,18 +23,19 @@ body {
 }
 
 .header {
-    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     gap: 20px;
     background-color: red;
+    margin-bottom: 20px;
 }
 
 .top {
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
-    padding: 20px 450px 20px 400px;
+    padding: 0px 0px;
+    gap: 190px;
 }
 
 ul {
@@ -56,7 +58,7 @@ a:hover {
 
 .about {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 0px 30px;
 }
 
@@ -68,6 +70,7 @@ a:hover {
     width: 400px;
     color: white;
     font-size: 18px;
+    gap: 5px;
 }
 
 .title {
@@ -102,3 +105,36 @@ a:hover {
     color: white;
   }
   
+  .team {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .people {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .information {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+  }
+
+  .foto {
+    width: 200px;
+    height: 200px;
+    border: 2px solid #04AA6D;
+    border-radius: 10%;
+  }
+
+  .person {
+    text-align: center;
+    font-size: large;
+  }
+
+  .team .title {
+    text-align:  center;
+  }
