@@ -34,7 +34,7 @@ body {
     display: flex;
     justify-content:space-around;
     align-items: center;
-    padding: 0px 0px;
+    padding: 10px 0px;
     gap: 190px;
 }
 
@@ -104,6 +104,17 @@ a:hover {
     background-color: #04AA6D;
     color: white;
   }
+
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid red;
+  }
+  
+  .button2:hover {
+    background-color: red;
+    color: white;
+  }
   
   .team {
     display: flex;
@@ -167,4 +178,43 @@ a:hover {
     text-align: center;
     padding-left: 430px;
     font-weight: bold;
+  }
+
+
+  .calendario {
+    display: flex;
+    justify-content: space-between;
+    background-color: #04AA6D;
+    width: 700px;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 44px auto;
+    border-radius: 12px;
+  }
+
+  .fecha {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+
+  .fecha .title {
+    font-weight: bolder;
+    font-size: large;
+  }
+
+  .footer {
+    text-align: center;
+    color: white;
+    background-color: red;
+    padding: 15px 0px;
+  }
+
+  .head {
+    text-align: center;
+    color: white;
+    background-color: #04AA6D;
+    padding: 10px 0px;
   }
